@@ -81,7 +81,7 @@ align-content:flex-start
     text-align: center;
 }
 .main__form{
-    background-image: url("../assets/Fondo\ formulario\ 2.jpg") ;
+    background-image: linear-gradient(to left, black , blue);
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     color: white;
