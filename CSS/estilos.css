@@ -81,7 +81,7 @@ align-content:flex-start
     text-align: center;
 }
 .main__form{
-    background-image: linear-gradient(to left, black , blue);
+    background-image: linear-gradient(to left, black , bluegit checkpoint);
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     color: white;
