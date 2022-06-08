@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:ital,wght@0,300;1,300;1,700&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    margin: 0px;
+}
+.header{
+    background-image: url("../assets/Fondo\ 2.jpg");
+    background-size:cover;
+    background-repeat: repeat;
+    
+}
+
+
+.header__nav{
+    background-image: url(../assets/Fondo\ 7.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: stretch;
+}
+
+.header__list{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-content:flex-start
+}
+
+.header__item{
+   margin: 0px;
+
+   
+}
+.header__redes__btn{
+    background-color:grey;
+    color:white;
+    margin: 10px;
+    border-radius: 20%;
+    padding: 5px;
+    content: 1px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.header__btn{
+    background-color: black;
+    color: darkgoldenrod;
+    margin: 5px 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 20%;
+    padding: 5px;
+    content: 1px;
+    font-size: 30px;
+    font-family: 'Macondo', cursive;
+}
+.main{
+    background-image: url("../assets/Fondo\ 4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.main__texto{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-family: 'Macondo', cursive; 
+    padding: 20px 5px;
+    ;
+}
+.main__titulo{
+    color:red;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 170px 5px; 
+    text-align: center;
+}
+.main__form{
+    background-image: url("../assets/Fondo\ formulario\ 2.jpg") ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: white;
+    padding: 70px 20px;
+    width: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: midnightblue;
+}
+.main__iframe{
+   width: 523px;
+   height: 250px;
+}
+
+.footer{
+    background-image: url("../assets/Pie\ de\ pagina.jpg");
+    background-size: cover;
+}
+.index__inicio{
+    position: absolute;
+    left: 0px;
+}
+.index__btn{
+    border-radius: 20%;
+    height: 30px;
+}
+.titulo__contenido{
+    color: white;
+    font-size: 35px;
+    font-family: 'Permanent Marker', cursive;
+}
+.contenido{
+    height: 200px;
+    width: 800px;
+    overflow: auto;
+    background-color: gray;
+}
+#grilla{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 230px 1fr 1fr 1fr;
+    grid-template-rows: 15% 70% 15%;
+    grid-template-areas: "header header header header"
+                         "nav main main main"
+                         "footer footer footer footer";
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+@media screen and (max-width: 560px){
+    #grilla{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 5% 12% 75% 8%;
+        grid-template-areas: "header header header header"
+                             "nav nav nav nav"
+                             "main main main main"
+                             "footer footer footer footer";
+    }
+
+    .header__item{
+   margin: 7px 10px;
+    }
+    .header__list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        }
+    .header__btn{
+        font-size: 15px;
+    }
+    .index__btn{
+        border-radius: 20%;
+        height: 15px;
+    }
+    .main__titulo{
+        font-size: 30px;   
+    }
+    .main__iframe{
+        width: 360px;
+        height:auto;
+     }
+     .contenido{
+        
+        width: 360px;
+        
+    }
+     .main__p{
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .main__map{
+         width: 360px;
+         height: 500px;
+     }
+}

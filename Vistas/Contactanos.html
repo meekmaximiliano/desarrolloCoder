@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNDER PRESSURE</title>
+    <link rel="icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body id="grilla">
+    
+    <header class="header">
+        <div>
+             <a class="index__inicio" href="../Index.html"><img class="index__btn" src="../assets/Logo.jpg" alt="Logo hacia inicio"></a>
+        </div>
+    </header> 
+    
+     <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__btn" href="./Quienes-Somos.html">Quienes somos</a></li>
+                <li class="header__item"><a class="header__btn" href="./Donde-estamos.html">Donde estamos</a></li>
+                <li class="header__item"><a class="header__btn" href="./Clases.html">Clases</a></li>
+                <li class="header__item"><a class="header__btn" href="./Fotos-y-videos.html">Videos</a></li>
+                <li class="header__item"><h1 class="header__btn">Contactanos</h1></li>
+            </ul>
+     </nav>
+
+    <main class="main">
+            <form class="main__form" action="" method="get" enctype="text/plain">
+                <div>
+                    <label for="nombre-y-apellido">Nombre y apellido</label>
+                    <input type="text" id="nombre-y-apellido" name="nombre-y-apellido" placeholder="Nombre y Apellido">   
+                </div>
+                <div>
+                    <label for="correo-electronico">Correo electronico</label>
+                    <input type="email" id="correo-electronico" name="correo-electronico" placeholder="Ingrese su mail" required>
+                </div>
+                <b>Sexo:</b>
+                <div>
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="Masculino" value="Masculino">
+                </div>
+                <div>
+                    <label for="Femenino">Femenino</label>
+                    <input type="radio" name="sexo" id="Femenino" value="Femenino">
+                </div>
+                <b>Cursos sobre los que quiero informacion:</b>
+                <div>
+                    <label for="Canto">Canto</label>
+                    <input type="checkbox" name="Canto" id="Canto">
+                </div>
+                <div>
+                    <label for="Guitarra">Guitarra</label>
+                    <input type="checkbox" name="Guitarra" id="Guitarra">
+                </div>
+                <div>
+                    <label for="Piano">Piano</label>
+                    <input type="checkbox" name="Piano" id="Piano">
+                </div>
+                <div>
+                    <label for="banda-de-rock">Banda De Rock</label>
+                    <input type="checkbox" name="banda-de-rock" id="banda-de-rock">
+                </div>
+                <b>Turno de preferencia</b>
+                <div>
+                    <label for="turno">Turno</label>
+                    <select name="turno" id="turno">
+                        <option value="mañana">Mañana</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noche">Noche</option>
+                    </select>      
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+    </main>
+
+    <footer class="footer">
+    <b>Whatsapp: 116-111-6666</b>
+    <br>
+    <b>Tel: 4444-6666</b>
+    <br>
+    <em>"Sin musica la vida seria un error"</em>
+    
+    </footer>
+
+</body>
+  
+</html>
