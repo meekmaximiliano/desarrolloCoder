@@ -9,10 +9,10 @@
     margin: 0px;
 }
 .header{
-    background-image: url("../assets/Fondo\ 2.jpg");
-    background-size:cover;
-    background-repeat: repeat;
-    
+    background-color: black;
+}
+.logo{
+    height: 150px;
 }
 
 

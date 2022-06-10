@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,53 +9,91 @@
     <link rel="icon" href="../assets/favicon.png">
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
-<body id="grilla">
-    <header class="header">
-        <div>
-             <a class="index__inicio" href="../Index.html"><img class="index__btn" src="../assets/Logo.jpg" alt="Logo hacia inicio"></a>
-        </div>
-    </header>
-    
-    <nav class="header__nav">
-            
-                <ul class="header__list">
-                    <li class="header__item"><h1 class="header__btn">Quienes somos</h1></li>
-                    <li class="header__item"><a class="header__btn" href="./Donde-estamos.html">Donde estamos</a></li>
-                    <li class="header__item"><a class="header__btn" href="./Clases.html">Clases</a></li>
-                    <li class="header__item"><a class="header__btn" href="./Fotos-y-videos.html">Videos</a></li>
-                    <li class="header__item"><a class="header__btn" href="./Contactanos.html">Contactanos</a></li>
-                </ul>
-     </nav>
 
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-black p-0">
+            <div class="container-fluid">
+              <img class="logo" src="../assets/Banda de rock.jpg" alt="">
+              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../Index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Vistas/Donde-estamos.html">Donde estamos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Vistas/Clases.html">Clases</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Vistas/Fotos-y-videos.html">Videos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Vistas/Contactanos.html">Contactanos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-12">
+        <a class="header__redes__btn" href="https://www.facebook.com/maximiliano.meek/">Facebook</a> 
+        <a class="header__redes__btn" href="https://www.instagram.com/max_est_13/">Instagram</a>
+    </div>
+</div> 
+</div>
+
+</header>
     <main class="main">
-        <p class="main__texto">
-            Somos un equipo de personas que <br>
-            amamos lo que hacemos. Nuestra <br>
-            misión es mucho más que enseñar <br>
-            música. Nuestras experiencias de <br>
-            aprendizaje basadas en la motivación <br>
-            lúdica hacen foco en la persona, en <br>
-            el desarrollo de la identidad, <br>
-            la confianza, las capacidades <br>
-            de expresión, de interacción <br>
-            social y el desarrollo de la <br>
-            creatividad mediante prácticas <br>
-            dinámicas e interactivas. Nuestro <br>
-            lema es “se aprende mejor cuando <br>
-            se está motivado, cuando se <br>
-            hace lo que a uno le gusta".
-        </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                     <p class="main__texto">
+                            Somos un equipo de personas que <br>
+                            amamos lo que hacemos. Nuestra <br>
+                            misión es mucho más que enseñar <br>
+                            música. Nuestras experiencias de <br>
+                            aprendizaje basadas en la motivación <br>
+                            lúdica hacen foco en la persona, en <br>
+                            el desarrollo de la identidad, <br>
+                            la confianza, las capacidades <br>
+                            de expresión, de interacción <br>
+                            social y el desarrollo de la <br>
+                            creatividad mediante prácticas <br>
+                            dinámicas e interactivas. Nuestro <br>
+                            lema es “se aprende mejor cuando <br>
+                            se está motivado, cuando se <br>
+                            hace lo que a uno le gusta".
+                     </p>
+                </div>
+            </div>
+        </div>
     </main>
 
-<footer class="footer">
-    <b>Whatsapp: 116-111-6666</b>
-    <br>
-    <b>Tel: 4444-6666</b>
-    <br>
-    <em>"Sin musica la vida seria un error"</em>
-    
-</footer>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                      <b>Whatsapp: 116-111-6666</b>
+                      <br>
+                      <b>Tel: 4444-6666</b>
+                      <br>
+                      <em>"Sin musica la vida seria un error"</em>
+                </div>
+            </div>
+        </div>
+     </footer>
 
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
