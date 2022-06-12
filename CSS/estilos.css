@@ -81,7 +81,7 @@ align-content:flex-start
     text-align: center;
 }
 .main__form{
-    background-image: linear-gradient(to left, black , bluegit checkpoint);
+    background-image: linear-gradient(to left, black , blue);
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     color: white;
@@ -89,7 +89,7 @@ align-content:flex-start
     width: fit-content;
     border-style: solid;
     border-width: 5px;
-    border-color: midnightblue;
+    border-color: black;
 }
 .main__iframe{
    width: 523px;
@@ -99,6 +99,7 @@ align-content:flex-start
 .footer{
     background-image: url("../assets/Pie\ de\ pagina.jpg");
     background-size: cover;
+    color: black;
 }
 .index__inicio{
     position: absolute;

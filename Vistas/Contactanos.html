@@ -10,98 +10,95 @@
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar navbar-expand-lg bg-black p-0">
-            <div class="container-fluid">
-              <img class="logo" src="./assets/Banda de rock.jpg" alt="">
-              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
-                <ul class="navbar-nav align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Vistas/Quienes-Somos.html">Quienes Somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Vistas/Donde-estamos.html">Donde estamos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Vistas/Clases.html">Clases</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Vistas/Fotos-y-videos.html">Videos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Vistas/Contactanos.html">Contactanos</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-<div class="container-fluid">
-<div class="row">
-    <div class="col-md-12">
-        <a class="header__redes__btn" href="https://www.facebook.com/maximiliano.meek/">Facebook</a> 
-        <a class="header__redes__btn" href="https://www.instagram.com/max_est_13/">Instagram</a>
-    </div>
-</div> 
-</div>
-
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-black p-0">
+        <div class="container-fluid">
+          <img class="logo" src="../assets/Banda de rock.jpg" alt="">
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Quienes-Somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Vistas/Donde-estamos.html">Donde estamos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Vistas/Clases.html">Clases</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Vistas/Fotos-y-videos.html">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header>
 
     <main class="main">
-            <form class="main__form" action="" method="get" enctype="text/plain">
-                <div>
-                    <label for="nombre-y-apellido">Nombre y apellido</label>
-                    <input type="text" id="nombre-y-apellido" name="nombre-y-apellido" placeholder="Nombre y Apellido">   
+          <div class="container-fluid">
+                <div class="row">
+                      <div class="col-md-12">
+                             <form class="main__form" action="" method="get" enctype="text/plain">
+                                <div>
+                                    <label for="nombre-y-apellido">Nombre y apellido</label>
+                                    <input type="text" id="nombre-y-apellido" name="nombre-y-apellido" placeholder="Nombre y Apellido">   
+                                </div>
+                                <div>
+                                    <label for="correo-electronico">Correo electronico</label>
+                                    <input type="email" id="correo-electronico" name="correo-electronico" placeholder="Ingrese su mail" required>
+                                </div>
+                                <b>Sexo:</b>
+                                <div>
+                                    <label for="Masculino">Masculino</label>
+                                    <input type="radio" name="sexo" id="Masculino" value="Masculino">
+                                </div>
+                                <div>
+                                    <label for="Femenino">Femenino</label>
+                                    <input type="radio" name="sexo" id="Femenino" value="Femenino">
+                                </div>
+                                <b>Cursos sobre los que quiero informacion:</b>
+                                <div>
+                                    <label for="Canto">Canto</label>
+                                    <input type="checkbox" name="Canto" id="Canto">
+                                </div>
+                                <div>
+                                    <label for="Guitarra">Guitarra</label>
+                                    <input type="checkbox" name="Guitarra" id="Guitarra">
+                                </div>
+                                <div>
+                                    <label for="Piano">Piano</label>
+                                    <input type="checkbox" name="Piano" id="Piano">
+                                </div>
+                                <div>
+                                    <label for="banda-de-rock">Banda De Rock</label>
+                                    <input type="checkbox" name="banda-de-rock" id="banda-de-rock">
+                                </div>
+                                <b>Turno de preferencia</b>
+                                <div>
+                                    <label for="turno">Turno</label>
+                                    <select name="turno" id="turno">
+                                        <option value="mañana">Mañana</option>
+                                        <option value="tarde">Tarde</option>
+                                        <option value="noche">Noche</option>
+                                    </select>      
+                                </div>
+                                <div>
+                                    <input type="submit">
+                                </div>
+                            </form>
+                      </div>
                 </div>
-                <div>
-                    <label for="correo-electronico">Correo electronico</label>
-                    <input type="email" id="correo-electronico" name="correo-electronico" placeholder="Ingrese su mail" required>
-                </div>
-                <b>Sexo:</b>
-                <div>
-                    <label for="Masculino">Masculino</label>
-                    <input type="radio" name="sexo" id="Masculino" value="Masculino">
-                </div>
-                <div>
-                    <label for="Femenino">Femenino</label>
-                    <input type="radio" name="sexo" id="Femenino" value="Femenino">
-                </div>
-                <b>Cursos sobre los que quiero informacion:</b>
-                <div>
-                    <label for="Canto">Canto</label>
-                    <input type="checkbox" name="Canto" id="Canto">
-                </div>
-                <div>
-                    <label for="Guitarra">Guitarra</label>
-                    <input type="checkbox" name="Guitarra" id="Guitarra">
-                </div>
-                <div>
-                    <label for="Piano">Piano</label>
-                    <input type="checkbox" name="Piano" id="Piano">
-                </div>
-                <div>
-                    <label for="banda-de-rock">Banda De Rock</label>
-                    <input type="checkbox" name="banda-de-rock" id="banda-de-rock">
-                </div>
-                <b>Turno de preferencia</b>
-                <div>
-                    <label for="turno">Turno</label>
-                    <select name="turno" id="turno">
-                        <option value="mañana">Mañana</option>
-                        <option value="tarde">Tarde</option>
-                        <option value="noche">Noche</option>
-                    </select>      
-                </div>
-                <div>
-                    <input type="submit">
-                </div>
-            </form>
+          </div>
+           
     </main>
 
     <footer class="footer">
@@ -118,7 +115,7 @@
         </div>
      </footer>
      
-<script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
   
 </html>
