@@ -13,6 +13,10 @@
 }
 .logo{
     height: 150px;
+    transition: 1s;
+}
+.logo:hover{
+transform: translate(20px,0px);
 }
 
 
@@ -44,7 +48,14 @@ align-content:flex-start
     content: 1px;
     font-size: 15px;
     font-family: sans-serif;
+    transition: padding 1s;
+    
 }
+.header__redes__btn:hover{
+background-color: chartreuse;
+padding: 10px;
+}
+
 .header__btn{
     background-color: black;
     color: darkgoldenrod;
@@ -71,14 +82,23 @@ align-content:flex-start
     font-size: 20px;
     font-family: 'Macondo', cursive; 
     padding: 20px 5px;
-    ;
+    transition: 1s;
 }
+.main__texto:hover{
+font-size: 25px;
+}
+
 .main__titulo{
     color:red;
     font-size: 50px;
     font-family: 'Permanent Marker', cursive;
     padding: 170px 5px; 
     text-align: center;
+    transition: 1s;
+}
+.main__titulo:hover{
+color: blue;
+font-size: 55px;
 }
 .main__form{
     background-image: linear-gradient(to left, black , blue);
