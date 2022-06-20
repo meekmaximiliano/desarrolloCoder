@@ -1,0 +1,16 @@
+.main {
+  background-image: url("../assets/Fondo 4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto; }
+  .main__titulo {
+    color: red;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 170px 5px;
+    text-align: center;
+    transition: 1s; }
+  .main__titulo:hover {
+    color: blue;
+    font-size: 55px; }
