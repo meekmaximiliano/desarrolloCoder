@@ -17,6 +17,15 @@
     font-size: 55px;
     }
 }
-
+$redes: (
+    facebook: #0000ff,
+    instagram: #8a2be2
+)
+@each $red, $color in $redes {
+    .#{$red} {
+        background-color: #{$color};
+    }
+    
+}
 
 
